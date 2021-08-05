@@ -1,0 +1,30 @@
+.cards{
+  display:flex;
+  justify-content:space-between;
+  margin: 30px ;
+}
+
+.card{
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px lightgrey;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  text-align: center;
+}
+
+.card img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card p{
+  color: rgb(80, 79, 79);
+}
+
+.card h3{
+  color: rgb(49, 49, 49)
+}
